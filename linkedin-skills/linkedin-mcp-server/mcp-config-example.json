@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "linkedin": {
+      "command": "node",
+      "args": ["./linkedin-skills/linkedin-mcp-server/index.js"],
+      "env": {
+        "LINKEDIN_ACCESS_TOKEN": "your_token_here",
+        "LINKEDIN_PERSON_ID": "your_person_id_here"
+      }
+    }
+  }
+}
